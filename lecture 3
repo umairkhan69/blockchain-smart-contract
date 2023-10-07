@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: MTL
+pragma solidity ^0.8.0;
+contract lec{
+    mapping(address=> uint256)balances;
+    function setBalance(uint256 amount, address setamount) pure  public{
+        require(amount>0, "Enter ")
+    }
+     //function print () public returns (string memory){
+        //"helloworld";
+}
